@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'NetDim';
+  src: url('./fonts/Net-DIN.ttf');
+}
+* {
+  font-family: 'NetDim', monospace;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  text-align: center;
+  color: #fff;
+  text-shadow: rgb(221, 62, 84) 2px 2px;
+  background: linear-gradient(to right, rgb(221, 62, 84), rgb(107, 229, 133));
+  overflow: hidden;
+}
