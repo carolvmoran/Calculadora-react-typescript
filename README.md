@@ -50,9 +50,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Result Desktop
 
 <figure>
-<img src="/src/assets/calculadora-desktop" alt="calculadora">
+  <img src="/src/assets/calculadora-desktop.png" alt="calculadora">
 </figure>
+
 ## Result Mobile
+
 <figure>
-<img src="/src/assets/calculadora-mobile" alt="calculadora">
+  <img src="/src/assets/calculadora-mobile.png" alt="calculadora">
 </figure>
