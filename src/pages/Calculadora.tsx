@@ -85,7 +85,7 @@ export default class Calculadora extends Component {
     return (
       <>
         <Title text="Calculadora"></Title>
-        <div className="calculator__3d">
+        <section className="calculator__3d">
           <div className="calculator">
             <Display estilo="display" value={this.state.displayValue} />
             <ContainerButtons
@@ -94,7 +94,7 @@ export default class Calculadora extends Component {
               addDigito={addDigito}
             />
           </div>
-        </div>
+        </section>
       </>
     );
   }
