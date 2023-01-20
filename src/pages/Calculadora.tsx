@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 /* eslint no-eval: 0 */
 import { Display } from "../components/miniComponents/Display/Display";
+import { Title } from "../components/miniComponents/Titles/Title";
 import { ContainerButtons } from "../components/medioComponents/ContainerButtons/ContainerButtons";
 
 import "./Calculadora.scss";
@@ -9,7 +10,7 @@ interface calcProps {
   displayValue: string;
   clearDisplay: boolean;
   operation: null;
-  values: Array<any>;
+  values: Array<number>;
   current: number;
 }
 
@@ -83,7 +84,7 @@ export default class Calculadora extends Component {
     const setOperation = (op: string) => this.setOperation(op);
     return (
       <>
-        <h1>Calculadora</h1>
+        <Title text="Calculadora"></Title>
         <div className="calculator__3d">
           <div className="calculator">
             <Display estilo="display" value={this.state.displayValue} />
