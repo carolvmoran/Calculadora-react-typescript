@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'NetDim';
-  src: url('./fonts/Net-DIN.ttf');
+  font-family: "NetDim";
+  src: url("./fonts/Net-DIN.ttf");
 }
 * {
-  font-family: 'NetDim', monospace;
+  font-family: "NetDim", monospace;
 }
 
 body {
