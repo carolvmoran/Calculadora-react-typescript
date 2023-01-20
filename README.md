@@ -49,8 +49,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Result Desktop
 
-<img src="https://prnt.sc/vJbAsky-NyHY">
+<img src="./src/assets/calculadora-desktop">
 
 ## Result Mobile
 
-<img src="https://prnt.sc/DiigrPFtdito">
+<img src="./src/assets/calculadora-mobile">
