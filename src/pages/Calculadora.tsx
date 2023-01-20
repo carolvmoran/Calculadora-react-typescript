@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { Display } from "../components/miniComponents/Display/Display";
 import { ContainerButtons } from "../components/medioComponents/ContainerButtons/ContainerButtons";
 
-import "./Calculator.css";
+import "./Calculadora.scss";
 
 interface calcProps {
   displayValue: string;
@@ -84,9 +84,9 @@ export default class Calculadora extends Component {
     return (
       <>
         <h1>Calculadora</h1>
-        <div className="calculator-3d">
+        <div className="calculator__3d">
           <div className="calculator">
-            <Display value={this.state.displayValue} />
+            <Display estilo="display" value={this.state.displayValue} />
             <ContainerButtons
               clear={() => this.clearMemory()}
               setOperation={setOperation}

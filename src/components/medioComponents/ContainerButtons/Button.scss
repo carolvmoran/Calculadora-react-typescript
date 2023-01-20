@@ -1,0 +1,42 @@
+@import "../../../styles/utils/variables.scss";
+
+.button {
+  background: transparent;
+  font-size: 1.4em;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  &:active {
+    background: linear-gradient(to left, $red, $green);
+    .button__3d {
+      background: linear-gradient(to right, $gray-lite, $white);
+    }
+  }
+  &__3d {
+    background: linear-gradient(to right, $gray-lite, $white);
+    border: $border-button;
+    border-radius: 4px;
+    margin: 0px;
+    box-shadow: 2px 2px 6px black;
+  }
+  &__double {
+    grid-column: span 2;
+  }
+  &__triple {
+    grid-column: span 3;
+  }
+  &__operation {
+    background: transparent;
+    border-radius: 6px;
+    &:active {
+      background: linear-gradient(to right, $red, $green);
+      color: $black;
+      text-shadow: $red -1px -1px;
+    }
+    .button__3d {
+      background: linear-gradient(to right, $red, $green);
+      color: $white;
+      text-shadow: $red -1px -1px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "NetDim";
+  src: url("../../fonts/Net-DIN.ttf");
+}
+
+//fonts
+$font-family: "NetDim", monospace;
+
+//colors
+
+$red: rgb(221, 62, 84);
+$green: rgb(107, 229, 133);
+$white: rgb(255, 255, 255);
+$gray-lite: rgb(236, 233, 230);
+$gray-dark: #888;
+$black: #000;
+$brown: rgb(143, 82, 90);
+
+//buttom
+
+$bg-button: #f0f0f0;
+$border-button: 1px solid $gray-dark;

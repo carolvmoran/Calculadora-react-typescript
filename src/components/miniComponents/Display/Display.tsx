@@ -1,16 +1,16 @@
 import React from "react";
-import "./Display.css";
 
 interface displayProps {
   value: string;
+  estilo: string;
 }
 
 const Display = (props: displayProps) => {
-  const { value } = props;
+  const { value, estilo } = props;
   return (
-    <div className="display">
-      <div className="display-3d">{value}</div>
-    </div>
+    <section className={estilo}>
+      <h3 className={`${estilo}__3d`}>{value}</h3>
+    </section>
   );
 };
 
